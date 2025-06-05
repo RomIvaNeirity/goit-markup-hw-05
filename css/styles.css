@@ -721,3 +721,51 @@ header {
   margin-bottom: 16px;
   font-weight: 500;
 }
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-lable {
+}
+
+footer-input-email {
+  color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-left: 16px;
+  letter-spacing: 0.04em;
+  line-height: 2;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  height: 40px;
+  width: 264px;
+}
+
+.footer-input-email::placeholder {
+  color: #ffffff;
+}
+
+.footer-button-subscribe {
+  border-radius: 4px;
+  border: none;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-width: 165px;
+  height: 40px;
+}
+
+.footer-button-icon {
+  margin-left: 16px;
+}
