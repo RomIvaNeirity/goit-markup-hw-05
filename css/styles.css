@@ -473,6 +473,7 @@ header {
   display: flex;
   justify-content: center;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .footer-icon-link {
@@ -730,7 +731,7 @@ header {
 .footer-form-lable {
 }
 
-footer-input-email {
+.footer-input-email {
   color: #ffffff;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
