@@ -473,6 +473,9 @@ header {
   display: flex;
   justify-content: center;
   gap: 16px;
+}
+
+.footer-icon-container {
   margin-right: 80px;
 }
 
