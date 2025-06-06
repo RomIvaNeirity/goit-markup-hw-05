@@ -609,7 +609,7 @@ header {
   width: 360px;
   height: 40px;
   background-color: transparent;
-  margin-bottom: 8px;
+
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -714,6 +714,11 @@ header {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #404bbf;
+}
+
 .footer-form-title {
   color: #ffffff;
   letter-spacing: 0.02em;
@@ -765,6 +770,12 @@ header {
   display: flex;
   min-width: 165px;
   height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button-subscribe:hover,
+.footer-button-subscribe:focus {
+  background-color: #404bbf;
 }
 
 .footer-button-icon {
